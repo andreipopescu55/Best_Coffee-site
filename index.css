@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(font/static/Roboto_SemiCondensed-Regular.ttf);
+}
+.title {
+  color: rgb(219, 189, 151);
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(24, 24, 24);
+  
+}
+.logo {
+  width: 150px;
+}
+
+.navbar {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  top: 0px;
+  margin: 50px;
+  border: solid 5px;
+  animation: colorChange 3s infinite alternate;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-right: 20px;
+  margin-left: 20px;
+  transition: background-color 0.5s ease;
+  display: inline-block;
+}
+@keyframes colorChange {
+  0% {
+    color: rgb(122, 27, 27);
+  }
+  50% {
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    color: bisque;
+  }
+}
+
+.motto {
+  display: flex;
+  justify-content: center;
+  border: solid 5px;
+  align-items: center;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, bisque, rgb(122, 27, 27));
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(122, 27, 27);
+  text-align: center;
+  animation: colorChange 3s infinite alternate;
+}
+
+ul li::marker {
+  color: rgb(122, 27, 27); /* culoarea bullet-ului */
+  font-size: 1.5em; /* opțional */
+}
+
+.button {
+  background-color: rgb(219, 189, 151);
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+}
+.button a:hover {
+  background-color: #ffffff;
+  color: rgb(122, 27, 27);
+  margin-right: 20px;
+  border: solid 3px rgb(122, 27, 27);
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.main {
+  margin: 100px;
+  border: solid 5px;
+  background-color: rgb(255, 244, 231);
+  font-family: "Roboto", sans-serif;
+  animation: colorChange 3s infinite alternate;
+  border-radius: 5px;
+}
+
+.coffee {
+  background-color: white;
+}
+
+.types a {
+  text-decoration: none;
+  font-size: 1em;
+  color: rgb(122, 27, 27);
+  font-family: "Roboto", sans-serif;
+}
+
+#list {
+  padding-left: 15px;
+  font-size: 3em;
+  color: rgb(122, 27, 27);
+}
+
+.main h2 {
+  color: rgb(122, 27, 27);
+  padding: 10px;
+  font-size: 2em;
+}
+
+.main p {
+  padding: 10px;
+  color: white;
+  background-color: rgb(122, 27, 27);
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.coffee img {
+  max-width: 100%; /* nu depășește containerul */
+  height: 250px; /* păstrează proporțiile */
+  display: block; /* pentru control mai bun al marginilor */
+  margin: 0 auto; /* centrare orizontală */
+  border-radius: 5px;
+  
+}
+
+.coffee {
+  background-color: rgb(255, 242, 228);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  align-items: center;
+  gap: 5px;
+}
+
+.espresso {
+  border: solid 2px rgb(122, 27, 27);
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cappuccino {
+  border: solid 2px rgb(122, 27, 27);
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.macchiato {
+  border: solid 2px rgb(122, 27, 27);
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.latte {
+  border: solid 2px rgb(122, 27, 27);
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.about-us > p {
+  padding: 10px;
+  color: white;
+  background-color: rgb(122, 27, 27);
+  font-size: 1em;
+  border-radius: 5px;
+}
+.about-us {
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(255, 244, 231);
+  margin-left: 1fr;
+  margin-right: 1fr;
+  border: solid 5px;
+  animation: colorChange 3s infinite alternate;
+  border-radius: 5px;
+}
+.logo-title > h2 {
+  color: rgb(122, 27, 27);
+  font-size: 2em;
+}
+.logoimg {
+  width: 75px;
+   border-radius: 50%;
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.price {
+  color: rgb(18, 194, 21);
+  font-size: 1.5em;
+}
+
+.price-block {
+  
+  background-color: lightgreen;
+  padding: 5px 10px;
+  border-radius: 5px; /* colțuri rotunjite */
+  cursor: pointer; /* cursor de mână */
+  text-align: center;
+
+}
